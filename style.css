@@ -1,9 +1,34 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Monserrat, sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
+}
+
+body{
+  width: 1280px;
+  height: 1750px;
+  margin: 0 auto;
+  padding-top: 220px;
+  background-image: url("images/dandelion_background.png");
+  background-repeat: no-repeat;
+  background-position: 205px 0;
+
 }
 
 .title {
@@ -11,17 +36,18 @@
   font-weight: 400;
   font-style: normal;
   line-height: 78px;
-  margin: 0 400px;
-  width: 846px;
+  margin-bottom: 110px;
+  width: auto;
   height: 78px;
   color: #515076;
+  text-align: center;
 }
 
 .product-card{
   background-color: #F7F7FA;
   padding: 25px;
   width: 290px;
-  height: 540px;
+  height: 530px;
 }
 
 .skin-type{
@@ -85,22 +111,9 @@ ul {
   font-weight: 700;
 }
 
-.first-card{
-  margin: 140px 45px 45px 170px;
-}
-
-.second-card{
-  margin: -635px 45px 45px 550px;
-}
-
-.third-card{
-  margin: -635px 45px 45px 930px;
-}
-
-.fourth-card{
-  margin: -10px 45px 0px 350px;
-}
-
-.fifth-card{
-  margin: -590px 45px 0px 730px;
-}
+ .product-list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+ }
