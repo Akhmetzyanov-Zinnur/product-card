@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 45px;
+}
+
+.headline{
+  font-size: 70px;
+  line-height: 78px;
+  margin-bottom: 110px;
+  width: auto;
+  height: 78px;
+  color: #515076;
+  text-align: center;
+}
+
+.catalog__tittle{
+  margin-bottom: 110px;
+}
+
+.catalog{
+  width: 1280px;
+  margin: 0 auto;
+  background-image: url("/product-card/images/dandelion_background.png");
+  background-repeat: no-repeat;
+  background-position: 85px 0;
+  padding-top: 220px;
+}
+
+.card{
+  background-color: #F7F7FA;
+  padding: 25px;
+}
+
+.card__category{
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #A5A3B9;
+}
+
+.card__name{
+  color: #515076;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 5px 0;
+}
+
+.card__description{
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin-bottom: 15px;
+}
+
+.product__item{
+  width: 290px;
+  height: auto;
+}
+
+.compound{
+  font-size: 13px;
+  color: #515076;
+  line-height: 18px;
+}
+
+.compound__list{
+  list-style-type: circle;
+  margin-left: 15px;
+}
+
+li{
+  margin: 5px 0;
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  color: #515076;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.price__name{
+  font-weight: 700;
+}
