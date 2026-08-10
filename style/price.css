@@ -1,0 +1,12 @@
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  color: #515076;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.price__name{
+  font-weight: 700;
+}

@@ -1,0 +1,26 @@
+.card{
+  background-color: #F7F7FA;
+  padding: 25px;
+}
+
+.card__category{
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #A5A3B9;
+}
+
+.card__name{
+  color: #515076;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 5px 0;
+}
+
+.card__description{
+  font-size: 13px;
+  line-height: 18px;
+  color: #515076;
+  margin-bottom: 15px;
+}
