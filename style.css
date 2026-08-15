@@ -50,6 +50,21 @@
   padding-top: 220px;
 }
 
+.catalog__buttons{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+#first-card-repaint-button, 
+#all-cards-repaint-button,
+#open-google-button,
+#output-console-log-button,
+#repaint-button{
+  border-radius: 8px;
+  height: 30px;
+}
+
 .card{
   background-color: #F7F7FA;
   padding: 25px;
@@ -82,6 +97,14 @@
   height: auto;
 }
 
+.product__item--violet {
+  background-color: #bb0cf0 !important; 
+}
+
+.product__item--orange {
+  background-color: #ff9008;
+}
+
 .compound{
   font-size: 13px;
   color: #515076;
@@ -108,4 +131,12 @@ li{
 
 .price__name{
   font-weight: 700;
+}
+
+.green-button{
+  background-color: #64ff16 !important;
+}
+
+.yellow-button{
+  background-color: #fff41b;
 }

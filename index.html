@@ -9,11 +9,18 @@
 <body>
 
   <main class="catalog">
-    <h1 class="catalog__tittle headline">Выбери свой продукт</h1>
+    <h1 class="catalog__tittle headline" id="main-tittle">Выбери свой продукт</h1>
+    <div class="catalog__buttons">
+      <button id ="first-card-repaint-button"> Сменить цвет первой карточки</button>
+      <button id ="all-cards-repaint-button"> Сменить цвет всех карточек</button>
+      <button id ="open-google-button"> Открыть Google.com</button>
+      <button id ="output-console-log-button"> Вывести сообщение в консоль лог</button>
+      <button class ="yellow-button" id ="repaint-button"> Изменить цвет кнопки</button>
+    </div>
 
     <div class="container">
       <div class="product__item card">
-        <img class="card__image" src="images/moisturizing_mousse.jpg"/>
+        <img class="card__image" src="images/moisturizing_mousse.png"/>
         <span class="card__category"> для нормальной кожи</span>
         <h2 class="card__name"> Увлажняющий мусс</h2>
         <p class="card__description"> Глубоко увлажняют кожу лица, оставляя её мягкой и гладкой.</p>
@@ -118,5 +125,6 @@
 
     </div>
   </main>
+  <script src="main.js"></script>
 </body>
 </html>
