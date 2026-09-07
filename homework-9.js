@@ -8,11 +8,12 @@ const filteredNumbers = numbers.filter(num => num>4)
 
 //поиск определенной сущности в массиве
 const products = ['молоко', 'хлеб', 'фрукты', 'яйца', 'масло']
-const hasProduct = products.includes('фрукты')
-if (hasProduct){
-  console.log('Да, продукт есть в списке')
-} else {
-  console.log('Нет, продукта в списке не оказалось')
+function checkProduct(product){
+  if(typeof product !== 'string'){
+    return 'введен некорректный параметр'
+  } else{
+    return products.includes(product)?  true : false;
+  }
 }
 
 //изменение порядка элементов массива
@@ -39,7 +40,7 @@ function updatePostIdById(comments){
   })
 }
 
-console.log(overkillCommentsById(comments))
+console.log(updatePostIdById(comments))
 
 //массив из имен и айди
 
